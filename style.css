@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+	--color-scondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: ;
+    color: black;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+footer {
+    background-color: ;
+    color: ;
+}
