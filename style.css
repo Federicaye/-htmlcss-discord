@@ -74,8 +74,8 @@ section img {
     padding-top: 2%;
 }
 
-.debug {
-    border: 1px solid black;
+#service4 p {
+    max-width: 800px
 }
 
 footer {
