@@ -33,7 +33,7 @@ nav a {
 }
 
 nav>ul {
-    flex-basis: 60%;
+    flex-basis: 45%;
 }
 
 .smallcontainer {
@@ -42,10 +42,16 @@ nav>ul {
     margin: 0 auto;
 }
 
+/* hero */
 #hero {
     background-image: url(img/jumbo.png);
     min-height: 500px;
     background-size: cover;
+}
+
+#hero h1 {
+    padding-top: 200px;
+    padding-bottom: 20px;
 }
 
 .container {
