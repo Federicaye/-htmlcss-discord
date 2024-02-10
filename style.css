@@ -66,6 +66,10 @@ nav>ul {
     padding: 10px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .debug {
     border: 1px solid black;
 }
