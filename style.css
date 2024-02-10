@@ -82,9 +82,11 @@ section img {
     background-color: var(--color-section-bg)
 }
 
-#service2 {
-    border: 20px;
-    border-image: url(img/wave.svg) 30 fill 30px 30px space
+
+.border {
+    border: 30px solid blue;
+    border-image: url(img/wave.svg)
+    
 }
 
 footer {
