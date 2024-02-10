@@ -1,3 +1,4 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     list-style: none;
 }
 
+/* style */
 :root {
 	--color-scondary: #ffffff;
 	--color-primary: #23272a;
@@ -19,9 +21,19 @@ body {
 }
 
 header {
-    background-color: ;
-    color: black;
+    background-color: var(--color-header-bg);
+    color: rgb(255, 255, 255);
     
+}
+
+/* menu */
+nav a {
+    color: var(--color-scondary);
+    text-decoration: none;
+}
+
+nav>ul {
+    flex-basis: 60%;
 }
 
 .smallcontainer {
@@ -32,9 +44,8 @@ header {
 
 #hero {
     background-image: url(img/jumbo.png);
-    background-repeat: no-repeat;
     min-height: 500px;
-    background-size: contain;
+    background-size: cover;
 }
 
 .container {
