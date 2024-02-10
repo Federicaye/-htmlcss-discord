@@ -78,6 +78,15 @@ section img {
     max-width: 800px
 }
 
+#service2,#service4,#service5 {
+    background-color: var(--color-section-bg)
+}
+
+#service2 {
+    border: 20px;
+    border-image: url(img/wave.svg) 30 fill 30px 30px space
+}
+
 footer {
     background-color: ;
     color: ;
