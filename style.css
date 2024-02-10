@@ -131,11 +131,16 @@ footer .top {
 }
 
 #service5 {
-    background-color: var(--color-contrast);
+    background-color: var(--color-section-bg);
     background-size: contain;
-    background-position: center;
-    background-image: url(img/stars.svg);
     
+}
+
+#service5 .smallcontainer {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(img/stars.svg);
+
 }
 
 .button {
