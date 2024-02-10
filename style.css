@@ -84,9 +84,9 @@ section img {
 
 
 .border {
-    border: 30px solid blue;
-    border-image: url(img/wave.svg)
-    
+    border-top: 60px solid transparent;
+    border-image: url(img/wave.svg) 30 ;
+    border-image-outset: 2;
 }
 
 footer {
