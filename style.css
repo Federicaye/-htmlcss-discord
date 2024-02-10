@@ -70,6 +70,10 @@ img {
     max-width: 100%;
 }
 
+section img {
+    padding-top: 2%;
+}
+
 .debug {
     border: 1px solid black;
 }
