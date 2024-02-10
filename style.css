@@ -83,10 +83,6 @@ footer .top {
     border-bottom: #f6f6f6;
 }
 
-.d-flex {
-    display: flex;
-
-}
 
 .left{
     width: 60%;
@@ -101,11 +97,20 @@ footer .top {
     padding-top: 3%;
 }
 
+/* utility flex */
+
 .space-between {
     justify-content: space-between;
 }
 
 .align-items {
     align-items: center;
+}
 
+.d-flex {
+    display: flex;
+}
+
+.rawreverse {
+    flex-direction: row-reverse;
 }
