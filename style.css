@@ -101,22 +101,53 @@ section img {
 .border {
     border: transparent;
     border-top-width: 100px;
-    border-bottom: 0;
+    border-bottom-width: 100px;
     border-left: 0;
     border-right: 0;
-    border-image: url(img/wave.svg) 100% 0 0 0;
+    border-image: url(img/wave.svg) 100% 0 100% 0;
     border-top-style: solid;
+
     border-image-repeat: stretch;
     border-image-outset: 100px
 }
 
+
+/* everything in the footer */
 footer {
-    background-color: ;
-    color: ;
+    background-color: var(--color-primary) ;
+    color: var(--color-scondary);
 }
 
 footer .top {
     border-bottom: #f6f6f6;
+}
+
+footer li:first-child {
+    color: var(--color-header-bg);
+    font-weight: bold;
+}
+
+footer li {
+    font-weight: bold;
+}
+
+footer h3 {
+    color: var(--color-header-bg);
+    font-size: 40px;
+    line-height: 45px;
+    
+}
+
+#top {
+    border-bottom: 2px solid var(--color-contrast)
+}
+
+#flag {
+    width: ;
+}
+
+#social {
+    max-width: 20%;
 }
 
 
@@ -150,6 +181,8 @@ footer .top {
 
 }
 
+/* button */
+
 .button {
     border-radius: 20px;
     border: none;
@@ -157,9 +190,26 @@ footer .top {
     margin: 10px 5px;
 }
 
+.button-black {
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+
+.blue-button {
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    
 }
+
+.blueactive:hover {
+    color: var(--color-header-bg);
+}
+
+
 
 /* utility flex */
 
