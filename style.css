@@ -123,23 +123,26 @@ footer .top {
 }
 
 footer li:first-child {
-    color: var(--color-header-bg);
+    color: rgb(94, 109, 156);
     font-weight: bold;
 }
 
 footer li {
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
 }
 
 footer h3 {
-    color: var(--color-header-bg);
-    font-size: 40px;
+    color: rgb(94, 109, 156);
+    font-size: 20px;
     line-height: 45px;
     
 }
 
 #top {
-    border-bottom: 2px solid var(--color-contrast)
+    border-bottom: 2px solid var(--color-contrast);
+    padding-top: 40px;
 }
 
 #flag {
@@ -163,12 +166,20 @@ footer h3 {
 
 #service4 h1 {
     text-align: center;
+    padding-top: 30px;
 }
 
 #service5 {
     background-color: var(--color-section-bg);
     background-size: contain;
+    padding-bottom: 80px;
 
+}
+
+#calltoaction {
+    padding: 20px 0 20px;
+    font-size: 1,5em;
+    font-weight: bold;
 }
 
 #service5 .smallcontainer {
