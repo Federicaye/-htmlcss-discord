@@ -143,12 +143,9 @@ footer h3 {
 }
 
 #flag {
-    width: ;
+    width: 50px;
 }
 
-#social {
-    max-width: 20%;
-}
 
 
 .left {
@@ -229,7 +226,13 @@ footer h3 {
     flex-direction: row-reverse;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 .border path {
     fill: blue;
-  } ​
+  } 
+
+
 
